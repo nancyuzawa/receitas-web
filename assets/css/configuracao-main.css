@@ -1,0 +1,59 @@
+.config-figure {
+    width: 45%;
+    height: auto;
+    background-size: cover;
+    background-position: 25%;
+    background-repeat: no-repeat;
+
+}
+
+#secao1,
+#secao2,
+#secao3 {
+    display: flex;
+    margin: 4rem 2rem;
+
+
+}
+
+.titulo-receita {
+    margin-left: 2rem;
+
+    margin-bottom: 1rem;
+    display: flex;
+    /* flex-direction: column;; */
+    justify-content: center;
+    background-color: #7c5355;
+    color: #d8d1b8;
+    font-size: 1.7rem;
+    height: 2.7rem;
+    align-items: center;
+}
+
+section>h3,
+section>ul,
+section>ol {
+
+    margin-left: 5.5rem;
+}
+
+section>h3 {
+    margin-top: .6rem;
+
+    /* text-decoration: ca; */
+}
+
+section>h2 {
+    margin-top: 1rem;
+    margin-left: 5.5rem;
+
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+
+
+.conteudo-receita {
+    width: 40rem;
+    right: 1500px;
+}

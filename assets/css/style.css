@@ -1,0 +1,48 @@
+main{
+    flex: 1;
+    background-image: url('../image/wallpaper-food.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wallpaper{
+    max-width: 100%;
+
+}
+
+.texto-main{
+    margin: 3rem 2rem 1rem 2rem;
+    width: 30%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texto-main > p{
+    font-size: 16px;
+    margin: 0.6rem 0;
+}
+
+
+.menu-superior, .item-menu-superior{
+    background-color: red;
+    color: black;
+}
+a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a:hover{
+    background-color: black;
+}
+
+.texto-main, .descricao{
+    background-color: transparent;
+    color: #d8d1b8;
+    font-weight: 500;
+}

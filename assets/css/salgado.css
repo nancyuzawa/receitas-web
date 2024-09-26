@@ -1,0 +1,34 @@
+.conteudo-inicial {
+    width: 100%;
+    height: 30rem;
+    background-image: url('../image/wallpaper-salgados.jpg');
+    background-repeat: none;
+    background-size: cover;
+    background-position: 25% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo-inicial>p {
+    color: white;
+    font-size: 1.3rem;
+    /* font-weight: ; */
+    background-color: transparent;
+}
+
+/*AJUSTANDO A MAIN*/
+#figure1 {
+    background-image: url('../image/empada-img.webp');
+    border-radius: .5rem;
+}
+
+#figure2 {
+    background-image: url('../image/coxinha.jpg');
+    border-radius: .5rem;
+}
+
+#figure3 {
+    background-image: url('../image/pizza.jpg');
+    border-radius: .5rem;
+}
